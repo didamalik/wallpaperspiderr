@@ -3,8 +3,8 @@
  
 "json_popup_wait" : "Server Ready ",
   
-"mode_no_ads" : true,
-"mode_tes_iklan_fan_admob_startapp_appdodeal" : false,
+"mode_no_ads" : false,
+"mode_tes_iklan_fan_admob_startapp_appdodeal" : true,
 
 // Mode Iklan
 // 
@@ -50,8 +50,8 @@
 
 "unity_banner_id" : "banner",
 "unity_inters_id" : "interstitial",
-"unity_id" : 4045251,
-"unity_test" : true,
+"unity_id" : ,
+"unity_test" : false,
 
 "applovin_banner_id" : "YOUR_AD_UNIT_ID",
 "applovin_inters_id" : "YOUR_AD_UNIT_ID",
