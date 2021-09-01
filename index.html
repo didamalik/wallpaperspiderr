@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Belajar CSS</title>
+
+</head>
+
+<style type="text/css">
+body {
+background-image:url(wood-bg.jpg);
+}
+</style>
+<body>
+
+
+
+<center><h3>Shawn Mendes, Camila Cabello - Señorita</h3>
+<video width="400" height="250" controls autoplay>
+  <source src="Shawn Mendes, Camila Cabello - Señorita.mp4" type="video/mp4">
+</video>
+  </video></center><br>
+<div style="text-align: center;"><strong>I love it when you call me se&ntilde;orita</strong><br /><strong>I wish I could pretend I didn't need ya</strong><br /><strong>But every touch is ooh la la la</strong><br /><strong>It's true, la la la</strong><br /><strong>Ooh, I should be running</strong><br /><strong>Ooh, you keep me coming for you</strong></div>
+<div style="text-align: center;">&nbsp;</div>
+<div style="text-align: center;"><strong>Land in Miami</strong><br /><strong>The air was hot from summer rain</strong><br /><strong>Sweat dripping off me</strong><br /><strong>Before I even knew her name, la la la</strong><br /><strong>It felt like ooh la la la</strong></div>
+<div style="text-align: center;"><br /><strong>Yeah no</strong><br /><strong>Sapphire moonlight</strong><br /><strong>We danced for hours in the sand</strong><br /><strong>Tequila sunrise</strong><br /><strong>Her body fit right in my hands, la la la</strong><br /><strong>It felt like ooh la la la, yeah</strong></div>
+<div style="text-align: center;">&nbsp;</div>
+<div class="OULBYb" style="text-align: center;"><strong>I love it when you call me se&ntilde;orita</strong><br /><strong>I wish I could pretend I didn't need you</strong><br /><strong>But every touch is ooh la la la</strong><br /><strong>It's true, la la la</strong><br /><strong>Ooh, I should be running</strong><br /><strong>Ooh, you know I love it when you call me se&ntilde;orita</strong><br /><strong>I wish it wasn't so damn hard to leave you</strong><br /><strong>But every touch is ooh la la la</strong><br /><strong>It's true, la la la</strong><br /><strong>Ooh, I<span class="arsnrd">&hellip;</span></strong></div>
+</body>
+<script language="JavaScript1.2">
+
+/*
+Advanced window scroller script-
+By JavaScript Kit (www.javascriptkit.com)
+Over 200+ free JavaScripts here!
+*/
+
+var currentpos=0,alt=1,curpos1=0,curpos2=-1
+function initialize(){
+startit()
+}
+function scrollwindow(){
+if (document.all)
+temp=document.body.scrollTop
+else
+temp=window.pageYOffset
+if (alt==0)
+alt=1
+else
+alt=0
+if (alt==0)
+curpos1=temp
+else
+curpos2=temp
+if (curpos1!=curpos2){
+if (document.all)
+currentpos=document.body.scrollTop+1
+else
+currentpos=window.pageYOffset+1
+window.scroll(0,currentpos)
+}
+else{
+currentpos=0
+window.scroll(0,currentpos)
+}
+}
+function startit(){
+setInterval("scrollwindow()",100)
+}
+window.onload=initialize
+</script>
+</html>
